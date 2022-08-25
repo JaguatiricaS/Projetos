@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css">
+  <title>PedraPapelTesoura</title>
+</head>
+<body>
+  <div class="object_text">Escolha um dos itens:</div><br>
+  <div class="selections">
+    <button class="selection" data-selection="paper">✋</button>
+    <button class="selection" data-selection="scissor">✌</button>
+    <button class="selection" data-selection="rock">✊</button>
+  </div>
+  <div class="results">
+    <div>Você:
+      <span class="result-score" data-your-score>0</span>
+    </div>
+    <div data-final-column>IA:
+
+      <span class="result-score" data-computer-score>0</span>
+    </div>
+    <div class="result-selection"></div>
+    <div class="result-selection"></div>
+  </div>
+  <script src="/Script.js"></script>
+</body>
+</html>
